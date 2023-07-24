@@ -74,6 +74,7 @@ const HomeTestimonial: FC = () => {
                 fontSize: { xs: 36, md: 46 },
                 mt: { xs: 0, md: 7 },
                 mb: 4,
+                color: 'primary.main',
                 lineHeight: 1,
                 fontWeight: 'bold',
               }}
@@ -89,11 +90,12 @@ const HomeTestimonial: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Students{' '}
+                Clients{' '}
                 <Box
                   sx={{
                     position: 'absolute',
                     top: { xs: 20, md: 28 },
+                    color: 'primary.main',
                     left: 2,
                     '& img': { width: { xs: 130, md: 175 }, height: 'auto' },
                   }}

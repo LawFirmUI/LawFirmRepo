@@ -17,18 +17,7 @@ interface ExpItemProps {
 }
 
 const exps: Array<Exp> = [
-  {
-    label: 'Students',
-    value: '10K+',
-  },
-  {
-    label: 'Quality Course',
-    value: '20+',
-  },
-  {
-    label: 'Experience Mentors',
-    value: '10+',
-  },
+  
 ]
 
 const ExpItem: FC<ExpItemProps> = ({ item }) => {
@@ -83,7 +72,7 @@ const HomeHero: FC = () => {
                       backgroundColor: 'unset',
                     }}
                   >
-                    Improve{' '}
+                    Sompa{' '}
                     <Box
                       sx={{
                         position: 'absolute',
@@ -97,7 +86,7 @@ const HomeHero: FC = () => {
                       <img src="/images/headline-curve.svg" alt="Headline curve" />
                     </Box>
                   </Typography>
-                  your{' '}
+                  &{' '}
                   <Typography
                     component="span"
                     sx={{
@@ -113,32 +102,32 @@ const HomeHero: FC = () => {
                       },
                     }}
                   >
-                    Skill
+                    Partners
                     <svg version="1.1" viewBox="0 0 3183 3072">
                       <g id="Layer_x0020_1">
                         <path
-                          fill="#127C71"
+                          fill="#7e4b48"
                           d="M2600 224c0,0 0,0 0,0 236,198 259,562 52,809 -254,303 -1849,2089 -2221,1776 -301,-190 917,-1964 1363,-2496 207,-247 570,-287 806,-89z"
                         />
                         <path
-                          fill="#127C71"
+                          fill="#7e4b48"
                           d="M3166 2190c0,0 0,0 0,0 64,210 -58,443 -270,516 -260,90 -1848,585 -1948,252 -104,-230 1262,-860 1718,-1018 212,-73 437,39 500,250z"
                         />
                         <path
-                          fill="#127C71"
+                          fill="#7e4b48"
                           d="M566 3c0,0 0,0 0,0 -219,-26 -427,134 -462,356 -44,271 -255,1921 90,1962 245,62 628,-1392 704,-1869 36,-221 -114,-424 -332,-449z"
                         />
                       </g>
                     </svg>
                   </Typography>{' '}
                   <br />
-                  with Different Way
+                  Legal Services And Consultancy
                 </Typography>
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                   {
-                    "Let's take an online course to improve your skills in a different way, you can set your own study time according to your learning speed. So you san study comfortable and absorb tge material easily."
+                    "Let's make you dream again ."
                   }
                 </Typography>
               </Box>
@@ -148,6 +137,7 @@ const HomeHero: FC = () => {
                     Get Started
                   </StyledButton>
                 </ScrollLink>
+
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
                   <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
                     Watch Video
@@ -194,15 +184,15 @@ const HomeHero: FC = () => {
                   component="h6"
                   sx={{ color: 'secondary.main', fontSize: '1.1rem', fontWeight: 700, mb: 0.5 }}
                 >
-                  Certificate
+                  Success
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  There are certificates for all courses.
+                  There is and assurance.
                 </Typography>
               </Box>
             </Box>
-            <Box sx={{ lineHeight: 0 }}>
-              <Image src="/images/home-hero.jpg" width={775} height={787} alt="Hero img" />
+            <Box sx={{ lineHeight: 1 }}>
+              <Image src="/images/law1.png" width={2200} height={1800} alt="Hero img" />
             </Box>
           </Grid>
         </Grid>

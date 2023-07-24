@@ -54,6 +54,7 @@ const HomeNewsLetter: FC = () => {
         </Box>
       </Container>
     </Box>
+    
   )
 }
 

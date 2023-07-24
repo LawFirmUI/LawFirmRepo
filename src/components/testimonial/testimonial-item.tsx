@@ -12,10 +12,10 @@ const TestimonialItem: FC<Props> = ({ item }) => {
   return (
     <Box sx={{ padding: '30px' }}>
       <Box sx={{ mb: 2 }}>
-        <Typography component="h2" variant="h4" sx={{ mb: 2 }}>
+        <Typography component="h2" variant="h4" sx={{ mb: 2 , color:'primary.main'}}>
           {item.title}
         </Typography>
-        <Typography sx={{ mb: 2, color: 'text.secondary' }}>{item.content}</Typography>
+        <Typography sx={{ mb: 2, color: 'primary.main' }}>{item.content}</Typography>
       </Box>
       <Box
         sx={{
@@ -44,7 +44,7 @@ const TestimonialItem: FC<Props> = ({ item }) => {
           }}
         >
           <Image
-            src={`/images/avatars/${item.user.photo}`}
+            src={`/images/${item.user.photo}`}
             width={100}
             height={100}
             quality={97}
@@ -52,8 +52,8 @@ const TestimonialItem: FC<Props> = ({ item }) => {
           />
         </Box>
         <Box>
-          <Typography variant="h6">{item.user.name}</Typography>
-          <Typography variant="subtitle1" sx={{ color: 'text.secondary' }}>
+          <Typography variant="h6" sx={{color:'primary.main'}}>{item.user.name}</Typography>
+          <Typography variant="subtitle1" sx={{ color: 'secondary.main' }}>
             {item.user.professional}
           </Typography>
         </Box>

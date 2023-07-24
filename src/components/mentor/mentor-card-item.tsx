@@ -40,12 +40,27 @@ const MentorCardItem: FC<Props> = ({ item }) => {
           <Image src={item.photo as string} width={570} height={427} alt={'Mentor ' + item.id} />
         </Box>
         <Box sx={{ mb: 2 }}>
-          <Typography component="h2" variant="h4" sx={{ fontSize: '1.4rem' }}>
+          <Typography component="h2" variant="h4" sx={{color: 'primary.main', fontSize: '1.4rem' }}>
             {item.name}
           </Typography>
           <Typography sx={{ mb: 2, color: 'text.secondary' }}>{item.category}</Typography>
-          <Typography sx={{ mb: 2, color: 'text.secondary' }} variant="subtitle1">
+          <Typography sx={{ mb: 2, color: 'primary.main' }} >
             {item.description}
+          </Typography>
+          <Typography sx={{ mb: 2, color: 'primary.main' }} >
+            {item.description1}
+          </Typography>
+          <Typography sx={{ mb: 2, color: 'primary.main' }} >
+            {item.description2}
+          </Typography>
+          <Typography sx={{ mb: 2, color: 'primary.main' }} >
+            {item.description3}
+          </Typography>
+          <Typography sx={{ mb: 2, color: 'primary.main' }} >
+            {item.description4}
+          </Typography>
+          <Typography sx={{ mb: 2, color: 'primary.main' }} >
+            {item.description5}
           </Typography>
           <Box sx={{ '& img': { height: 26 } }}>
             {/* eslint-disable-next-line */}

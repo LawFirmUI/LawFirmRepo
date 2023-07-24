@@ -42,7 +42,7 @@ const HomeFeature: FC = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
-              <Image src="/images/home-feature.png" width={650} height={678} quality={97} alt="Feature img" />
+              <Image src="/images/brown_law.jpg" width={650} height={678} quality={97} alt="Feature img" />
               <Box
                 sx={{
                   position: 'absolute',
@@ -57,27 +57,7 @@ const HomeFeature: FC = () => {
                   width: 190,
                 }}
               >
-                <Typography variant="h5" sx={{ mb: 1 }}>
-                  Lorem ipsum dolor
-                </Typography>
-                <Box sx={{ mb: 2 }}>
-                  <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
-                  </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
-                </Box>
-                <Box sx={{ mb: 2 }}>
-                  <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
-                  </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
-                </Box>
-                <Box sx={{ mb: 2 }}>
-                  <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
-                  </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
-                </Box>
+                
               </Box>
 
               <Box
@@ -103,9 +83,9 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
+                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Big Dream</Typography>
                   <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
+                    Dream
                   </Typography>
                   <Box
                     sx={{
@@ -117,8 +97,8 @@ const HomeFeature: FC = () => {
                       flexDirection: 'column',
                     }}
                   >
-                    <Typography variant="h4" sx={{ color: '#32dc88' }}>
-                      75%
+                    <Typography variant="h4" sx={{ color: '#ffaf35' }}>
+                      95%
                     </Typography>
                     <CircularProgress
                       sx={{ position: 'absolute', color: 'divider' }}
@@ -131,9 +111,9 @@ const HomeFeature: FC = () => {
                       disableShrink
                       thickness={2}
                       variant="determinate"
-                      value={75}
+                      value={95}
                       size={85}
-                      sx={{ transform: 'rotate(96deg) !important', color: '#32dc88', position: 'absolute' }}
+                      sx={{ transform: 'rotate(96deg) !important', color: '#9e5e5b', position: 'absolute' }}
                     />
                   </Box>
                 </Box>
@@ -153,7 +133,7 @@ const HomeFeature: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Make your{' '}
+              {' '}
               <Typography
                 component="mark"
                 sx={{
@@ -164,7 +144,7 @@ const HomeFeature: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Learning <br />
+                The Dream <br />
                 <Box
                   sx={{
                     position: 'absolute',
@@ -178,12 +158,15 @@ const HomeFeature: FC = () => {
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Enjoyable
+              
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+            Paulo Coelho is a Brazilian lyricist and novelist, best known for his novel “The Alchemist”.            
+            </Typography>
+            <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
+            Don’t be scared! Don’t listen to people that tell you you can’t do it. 
+            And don’t listen to the voice in your head that tells you your dreams are impossible to achieve. Don’t let fear stopping you.
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>
