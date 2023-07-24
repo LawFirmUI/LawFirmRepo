@@ -1,8 +1,5 @@
 import React, { ReactNode } from 'react'
-import ArtTrackIcon from '@mui/icons-material/ArtTrack'
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney'
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary'
-import ContactSupportIcon from '@mui/icons-material/ContactSupport'
+
 import { AllInclusiveRounded, Business, Mediation, Visibility } from '@mui/icons-material'
 
 interface Data {
