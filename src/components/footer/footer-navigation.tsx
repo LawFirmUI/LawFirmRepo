@@ -6,24 +6,7 @@ import type { Navigation } from '@/interfaces/navigation'
 import { navigations as headerNavigations } from '@/components/navigation/navigation.data'
 import { FooterSectionTitle } from '@/components/footer'
 
-const courseMenu: Array<Navigation> = [
-  {
-    label: ' ',
-    path: '#',
-  },
-  {
-    label: ' ',
-    path: '#',
-  },
-  {
-    label: ' ',
-    path: '#',
-  },
-  {
-    label: ' ',
-    path: '#',
-  },
-]
+
 
 const pageMenu = headerNavigations
 
