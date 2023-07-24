@@ -102,7 +102,7 @@ const HomePopularCourse: FC = () => {
               }}
             >
               <Typography variant="h1" sx={{color: 'primary.main', mt: { xs: 0, md: -5 }, fontSize: { xs: 30, md: 48 } }}>
-                Raison D'etre
+                {"Raison D'etre"}
               </Typography>
             </Box>
           </Grid>

@@ -10,7 +10,7 @@ interface Props {
 const Logo: FC<Props> = ({ onClick, variant }) => {
   return (
     <Box onClick={onClick}>
-      <img src={'/images/s9.jpg'} width={100} height={100} alt='logo'/>
+      <Image src={'/images/s9.jpg'} width={100} height={100} alt='logo'/>
       <Typography
         variant="h5"
         component="h1"
