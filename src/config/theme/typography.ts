@@ -18,7 +18,7 @@ const typography: TypographyOptions = {
     fontWeight: 700,
   },
   h2: {
-    fontSize: 28,
+    fontSize: 30,
     lineHeight: headingLineHeight,
     fontWeight: 700,
   },

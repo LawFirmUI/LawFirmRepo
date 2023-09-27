@@ -138,17 +138,17 @@ const HomeHero: FC = () => {
                   </StyledButton>
                 </ScrollLink>
 
-                <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
+                {/* <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
                   <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
                     Watch Video
                   </StyledButton>
-                </ScrollLink>
+                </ScrollLink> */}
               </Box>
             </Box>
           </Grid>
           <Grid item xs={12} md={5} sx={{ position: 'relative' }}>
             {/* Sertificate badge */}
-            <Box
+            {/* <Box
               sx={{
                 position: 'absolute',
                 bottom: 30,
@@ -193,12 +193,12 @@ const HomeHero: FC = () => {
             </Box>
             <Box sx={{ lineHeight: 1 }}>
               <Image src="/images/law1.png" width={2200} height={1800} alt="Hero img" />
-            </Box>
+            </Box> */}
           </Grid>
         </Grid>
 
         {/* Experience */}
-        <Box sx={{ boxShadow: 2, py: 4, px: 7, borderRadius: 4 }}>
+        {/* <Box sx={{ boxShadow: 2, py: 4, px: 7, borderRadius: 4 }}>
           <Grid container spacing={2}>
             {exps.map((item) => (
               <Grid key={item.value} item xs={12} md={4}>
@@ -206,7 +206,7 @@ const HomeHero: FC = () => {
               </Grid>
             ))}
           </Grid>
-        </Box>
+        </Box> */}
       </Container>
     </Box>
   )
