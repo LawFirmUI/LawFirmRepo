@@ -121,7 +121,9 @@ const HomeHero: FC = () => {
                     </svg>
                   </Typography>{' '}
                   <br />
+                  <Typography sx={{height:'1.4 rem'}}>
                   Legal Services And Consultancy
+                  </Typography>
                 </Typography>
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
@@ -190,15 +192,15 @@ const HomeHero: FC = () => {
                   There is and assurance.
                 </Typography>
               </Box>
-            </Box>
+            </Box> */}
             <Box sx={{ lineHeight: 1 }}>
               <Image src="/images/law1.png" width={2200} height={1800} alt="Hero img" />
-            </Box> */}
+            </Box>
           </Grid>
         </Grid>
 
         {/* Experience */}
-        {/* <Box sx={{ boxShadow: 2, py: 4, px: 7, borderRadius: 4 }}>
+        <Box sx={{ boxShadow: 2, py: 4, px: 7, borderRadius: 4 }}>
           <Grid container spacing={2}>
             {exps.map((item) => (
               <Grid key={item.value} item xs={12} md={4}>
@@ -206,7 +208,7 @@ const HomeHero: FC = () => {
               </Grid>
             ))}
           </Grid>
-        </Box> */}
+        </Box>
       </Container>
     </Box>
   )
