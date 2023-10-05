@@ -21,7 +21,7 @@ export const data: Array<Course> = [
   },
   {
     id: 4,
-    cover: '/images/s3.jpg',
+    cover: '/images/hapFam.png',
     title: 'We exist as your Sustainability, Compliance, Governance, Risk Management and Financial Market experts.',
    
   },
