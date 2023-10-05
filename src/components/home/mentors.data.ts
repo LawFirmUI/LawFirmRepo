@@ -3,7 +3,7 @@ import type { Mentor } from '@/interfaces/mentor'
 export const data: Array<Mentor> = [
   {
     id: 1,
-    photo: '/images/hap-bus.jpeg',
+    photo: '/images/risk-man.jpg',
     name: 'Corporate Commercial',
     category: ' ',
     description:'Transactional Advisory.',
@@ -19,7 +19,7 @@ export const data: Array<Mentor> = [
   },
   {
     id: 2,
-    photo: '/images/hapFam.png',
+    photo: '/images/abitration.jpeg',
     name: 'Dispute Resolution',
     category: ' ',
     description:'Adversarial Litigation',
@@ -35,7 +35,7 @@ export const data: Array<Mentor> = [
   },
   {
     id: 3,
-    photo: '/images/bus-trus.jpg',
+    photo: '/images/public-sector.jpg',
     name: 'Sectors',
     category: ' ',
     description:'Intellectual Property, Entertainment, Media & Sports',
