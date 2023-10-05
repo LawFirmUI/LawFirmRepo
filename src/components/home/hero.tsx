@@ -121,7 +121,7 @@ const HomeHero: FC = () => {
                     </svg>
                   </Typography>{' '}
                   <br />
-                  <Typography sx={{height:'1.4 rem'}}>
+                  <Typography sx={{height:'3.4 rem'}}>
                   Legal Services And Consultancy
                   </Typography>
                 </Typography>

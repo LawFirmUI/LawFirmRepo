@@ -3,7 +3,7 @@ import type { Mentor } from '@/interfaces/mentor'
 export const data: Array<Mentor> = [
   {
     id: 1,
-    photo: '/images/s5.jpg',
+    photo: '/images/risk-man.jpg',
     name: 'Corporate Commercial',
     category: ' ',
     description:'Transactional Advisory.',
@@ -13,13 +13,13 @@ export const data: Array<Mentor> = [
     description4:'Banking,Insurance,Finance and Capital Market',
     description5:'Insolvency Practice',
     company: {
-      name: 'Grab',
-      logo: '/images/companies/grab.png',
+      name: '',
+      logo: '',
     },
   },
   {
     id: 2,
-    photo: '/images/s6.jpg',
+    photo: '/images/abitration.jpeg',
     name: 'Dispute Resolution',
     category: ' ',
     description:'Adversarial Litigation',
@@ -29,13 +29,13 @@ export const data: Array<Mentor> = [
     description4:'Quasi-Judicial Bodies',
     description5:'Adversarial Litigation ',
     company: {
-      name: 'Google',
-      logo: '/images/companies/google.png',
+      name: '',
+      logo: '',
     },
   },
   {
     id: 3,
-    photo: '/images/s7.jpg',
+    photo: '/images/public-sector.jpg',
     name: 'Sectors',
     category: ' ',
     description:'Intellectual Property, Entertainment, Media & Sports',
@@ -44,8 +44,8 @@ export const data: Array<Mentor> = [
     description3:'Information Technology, Security and Communication',
     description4:'Small Medium Enterprise and Start-ups',
     company: {
-      name: 'Airbnb',
-      logo: '/images/companies/airbnb.png',
+      name: '',
+      logo: '',
     },
   },
   

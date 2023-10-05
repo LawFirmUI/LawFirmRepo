@@ -18,7 +18,7 @@ const HomeFeature: FC = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
-              <Image src="/images/brown_law.jpg" width={650} height={678} quality={97} alt="Feature img" />
+              <Image src="/images/dream3.jpg" width={650} height={678} quality={97} alt="Feature img" />
               <Box
                 sx={{
                   position: 'absolute',
@@ -138,11 +138,11 @@ const HomeFeature: FC = () => {
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-            Paulo Coelho is a Brazilian lyricist and novelist, best known for his novel “The Alchemist”.            
+            {/* Paulo Coelho is a Brazilian lyricist and novelist, best known for his novel “The Alchemist”.             */}
             </Typography>
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-            Don’t be scared! Don’t listen to people that tell you you can’t do it. 
-            And don’t listen to the voice in your head that tells you your dreams are impossible to achieve. Don’t let fear stopping you.
+            {/* Don’t be scared! Don’t listen to people that tell you you can’t do it. 
+            And don’t listen to the voice in your head that tells you your dreams are impossible to achieve. Don’t let fear stopping you. */}
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>
