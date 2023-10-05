@@ -12,10 +12,10 @@ export const data: Array<Mentor> = [
     description3:'Due Diligence.', 
     description4:'Banking,Insurance,Finance and Capital Market',
     description5:'Insolvency Practice',
-    company: {
-      name: '',
-      logo: '',
-    },
+    // company: {
+    //   name: '',
+    //   logo: '',
+    // },
   },
   {
     id: 2,
@@ -28,10 +28,10 @@ export const data: Array<Mentor> = [
     description3:'Negotiation',
     description4:'Quasi-Judicial Bodies',
     description5:'Adversarial Litigation ',
-    company: {
-      name: '',
-      logo: '',
-    },
+    // company: {
+    //   name: '',
+    //   logo: '',
+    // },
   },
   {
     id: 3,
@@ -43,10 +43,10 @@ export const data: Array<Mentor> = [
     description2:'Infrastructure, Construction and Real Estate',
     description3:'Information Technology, Security and Communication',
     description4:'Small Medium Enterprise and Start-ups',
-    company: {
-      name: '',
-      logo: '',
-    },
+    // company: {
+    //   name: '',
+    //   logo: '',
+    // },
   },
   
 ]
